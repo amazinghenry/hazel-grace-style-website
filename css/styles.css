@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', 'century gothic', sans-serif;
+}
+
+/* top bar */
+.topbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.address, .phonenumber, .emailaddress{
+    padding:12px 0px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.address > p, .phonenumber > p, .emailaddress > p {
+    margin-bottom:0;
+
+}
+
+/* top bar on mobile */
+@media screen and (max-width: 480px) {
+    .topbar{
+
+    }
+}
+
+/* navbar */
+
+/* navbar */
+
+/* header */
+.header-title>h1{
+    font-size:1.6rem;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.header-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button{
+    margin-top: 1rem;
+}
+
+.headerbutton{
+    background-color: black;
+    padding: 8px 40px;
+    text-decoration: none;
+    color: #fff;
+    text-align:center;
+}
+
+.headerbutton:hover{
+    background-color:#E6C969;
+    color: #000;
+    font-weight: 600;
+}
+/* header */
+
+.collection1{
+    position: relative;
+    background-color:rgb(65, 65, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .collection-title{
+    position: absolute;
+    color:rgb(238, 238, 238);
+    text-align: center;
+}
+
+.collection-title>h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.collection-title>h3:hover{
+   text-decoration: underline;
+}
+
+.collection-title>h4{
+    font-weight: 200;
+    font-size: 0.9rem;
+    z-index: 3;
+}
+
+
+
+main{
+    margin-top:100px;
+} 
+
+
+/* section2 */
+
+.marginy {
+    margin: 10px 0 10px;
+}
+.collection2{
+    position: relative;
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-title2{
+    position: absolute;
+    right: 30px;
+    color:rgb(0, 0, 0);
+    text-align: left;
+}
+
+.collection-title2>h6{
+    font-size: 0.9rem;
+}
+
+.collection-title2>h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* featured */
+.featured1 > h2{
+    margin:50px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+    width: max-content;
+}
+/* featured */
+
+
+
+/* icon */
+.item{
+    /* background-color: pink; */
+    /* display: flex;
+    flex-direction:row; */
+    /* border: 2px solid rgb(145, 145, 145); */
+    background-color: red;
+    height: 60px;
+    width: 100px;
+    
+}
+
+.icon-item{
+    display: flex;
+    justify-content: center;
+}
+
+
+.icons{
+    width:3rem;
+}
+
+.icon-text{
+    margin-left:10px;
+}
+
+.icon-text > h4{
+    font-size: 1.25rem;
+}
+
+.icon-text > h5{
+    font-size: 0.8rem;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0px 70px; 
+}
+
+/* icon mobile */
+/* @media screen and (max-width: 480px) {
+    .icon-item{
+        margin-top: 10px;
+    }
+  } */
+  /* icon mobile */
+
+  /* products */
+.back{
+    background-color: #e5e5e5;
+}
+
+  .cardimage{
+      width: 280px;
+      height:200px;
+      object-fit: contain;
+      width: 100%;
+  }
+
+  .cardcontainer{
+      /* width: 280px; */
+      height: 100%;
+      padding: 5px;
+      background: #fff;
+      margin: 0 auto;
+  }
+
+  .cardtext{
+      text-align: center;
+      
+  }
+
+  .cardtext>h5{
+      margin-top: 10px;
+  }
+
+.cardbut{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 0.7rem;
+    display: block;
+    width: 100%;
+}
+
+.cardbutton{
+    margin-top:10px;
+}
+
+.cardbut:hover{
+    background-color:#E6C969;
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* @media screen and (max-width: 480px) {
+    
+    .cardimage{
+        width: 270;
+        height:200;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .cardcontainer{
+        width: 280px;
+        padding: 5px;
+        background: #fff;
+        margin: 0 auto;
+    }
+
+
+  } */
+
+
+
+/* footerstyle */
+.footerstyle{
+    background-color: #000;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footerlogo{
+    margin: 50px 0;
+    display: block;
+}
+
+.socialmediagroup{
+    display: flex;
+    color: #fff;
+}
+
+.socialicon{
+    margin: 0px 15px;
+    color: #E6C969;
+}
